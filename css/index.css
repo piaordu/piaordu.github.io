@@ -1,0 +1,36 @@
+
+.portrait_box {
+    margin:150px 0px 30px 0px;
+    width: 300px;
+    position: relative;
+    left: 45%;
+}
+.portrait {
+    height: 140px;
+    width: 140px;
+    border-radius: 50%;
+    /* margin: 0 auto; */
+}
+.menu {
+    font-size: 24px;
+    font-family: "Microsoft UI";
+    text-align: center;
+    list-style-type: none;
+    margin-top: 20px;
+    padding: 10px;
+}
+.li-inline {
+    display: inline;
+    padding: 10px;
+}
+a {
+    text-decoration: none;
+    color: #ffffff;
+}
+body {
+    background-color: #000000;
+}
+.float_bee {
+    width: 20px;
+    height: 20px;
+}
