@@ -1,3 +1,3 @@
 # piaordu.github.io
-piaordu.github.io/index.html
-blog and notes
+[piaordu.github.io](piaordu.github.io)
+## Blogs and notes
