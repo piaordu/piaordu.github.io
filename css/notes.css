@@ -1,0 +1,46 @@
+.vertical-title {
+    height: 100%;
+    width: 100px;
+    background-color: teal;
+    font-size: 30px;
+    font-family: 'Microsoft YaHei';
+    color: #4b4a4a;
+    float: left;
+    text-align: center;
+    line-height: 100%;
+}
+.vertical-text{
+    height: 300px;
+    width: auto;
+    position: relative;
+    top: 50%;
+    transform: translateY(-50%);
+}
+.content-img {
+    height: 100%;
+    width: 400px;
+    float: left;
+    margin-left: 80px;
+}
+.vertical-img {
+    height: 400px;
+    width: 400px;
+    overflow: hidden;
+    position: relative;
+    top: 50%;
+    transform: translateY(-50%);
+}
+.content-text {
+    height: 100%;
+    width: 400px;
+    margin-left: 80px;
+    float: left;
+    font-family: 'Microsoft YaHei';
+    font-size: 18px;
+    color: teal;
+    line-height: 200%;
+}
+html, body {
+    height: 100%;
+    margin: 0;
+}
