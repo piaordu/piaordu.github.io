@@ -9,7 +9,7 @@ html, body {
 }
 .website-name {
     padding-left: 18px;
-    color: #f44f4a;
+    color: #d43a38;
     font-family: cursive;
     font-size: 25px;
     display: inline;
@@ -26,7 +26,7 @@ html, body {
 }
 a {
     text-decoration: none;
-    color: #f44f4a;
+    color: #d43a38;
 }
 a:hover {
     color: #ff9a9a;
@@ -34,14 +34,18 @@ a:hover {
 }
 body {
     color: #768390;
-    background: #FFF;
-    font-family: "Effra", Helvetica, sans-serif;
+    background: #ffffff;
+    font-family: 'Microsoft YaHei';
     padding: 0;
     -webkit-font-smoothing: antialiased;
 }
 h1, h2, h3, h4, h5, h6 {
     color: #3D4351;
     margin-top: 0;
+    font-weight: normal;
+}
+p {
+    font-family: 'NSimSun';
 }
 
 /* timeline styles */
@@ -65,7 +69,7 @@ h1, h2, h3, h4, h5, h6 {
 .timeline-info {
     font-size: 12px;
     font-weight: 700;
-    letter-spacing: 3px;
+    letter-spacing: 1px;
     margin: 0 0 .5em 0;
     white-space: nowrap;
 }
@@ -78,7 +82,7 @@ h1, h2, h3, h4, h5, h6 {
     width: 15px;
 }
 .timeline-marker:before {
-    background: #f44f4a;
+    background: #d43a38;
     border-radius: 100%;
     content: "";
     display: block;
@@ -98,13 +102,12 @@ h1, h2, h3, h4, h5, h6 {
     bottom: 0;
     left: 6px;
 }
-/* 作用？ */
 .timeline-item:last-child .timeline-marker:after {
     content: none;
 }
 .timeline-item:not(.period):hover .timeline-marker:before {
     background: transparent;
-    border: 3px solid #f44f4a;
+    border: 3px solid #d43a38;
     padding: 0;
     width: 9px;
     height: 9px;

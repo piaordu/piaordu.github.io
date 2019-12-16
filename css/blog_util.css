@@ -1,21 +1,17 @@
-
-.snippet {
-    background-color: white;
-    border-radius: 6%;
-    border-color: #f44f4a;
+.content-blog {
+    width: 67%;
+    margin-left: 17;
 }
-.blog-headline {
-    font-size: 20px;
-    font-family: 'Times New Roman', Times, serif;
-
-}
-.blog-abstract {
+.blog-title {
     font-size: 16px;
-    color: #424242;
+    color: #3D4351;
 }
-.read-more {
-    color: #f44f4a;
+.blog-info {
+    font-size: 12px;
 }
-a{
-    color: #f44f4a;
+.content-blog p {
+    font-family: 'Microsoft YaHei';
+    font-size: 14px;
+    color: rgb(71, 75, 83);
 }
+
