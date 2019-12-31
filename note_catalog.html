@@ -1,14 +1,19 @@
 <!DOCTYPE html>
 <html>
     <head>
-        <title></title>
+        <title>Catalog of Notes</title>
         <link href="css/util.css" rel="stylesheet" type="text/css">
+
+        <link rel="stylesheet" type="text/css" href="css/waifu1.css">
+        <script src="https://cdn.bootcss.com/jquery/3.2.1/jquery.min.js"></script>
+        <script src="js/live2d.min.js"></script>
+        <script src="js/waifu-tips.js"></script>
     </head>
     <body>
-        <div class="header">
-            <div class="website-name">Piaordu's blog</div>
-            <div class="page-name">Notes Catalog</div>
-        </div>
+        <header>
+            <div class="website-name">Piaordu's Blogs</div>
+            <div class="page-name">Blog Catalog</div>
+        </header>
 
         <div class="content-timeline">
             <ul class="timeline timeline-split">
@@ -63,6 +68,12 @@
             </ul>
         </div>
 
-        <div class="footer"></div>
+        <footer></footer>
+
+        <div class="waifu" id="waifu">
+            <div class="waifu-tips" style="opacity: 1;"></div>
+            <canvas id="live2d" width="280" height="250" class="live2d"></canvas>
+        </div>
+        <script type="text/javascript">initModel()</script>
     </body>
 </html>
